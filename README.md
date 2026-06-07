@@ -1,9 +1,8 @@
 # GreenCognitiveMLP 🌿⚡
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg?style=for-the-badge)](https://www.python.org/downloads/)
-[![Optimization: 10/10](https://img.shields.io/badge/Optimization-10%2F10-brightgreen?style=for-the-badge)](#)
+
 
 `GreenCognitiveMLP` est un module MLP (Multi-Layer Perceptron) éco-conditionnel d'élite conçu pour PyTorch. Il intègre un mécanisme de **gating dynamique** (Sparsity) et l'architecture **SwiGLU** pour optimiser drastiquement la consommation de FLOPs en cours d'inférence, le tout **sans aucune synchronisation CPU-GPU** (zéro Graph Break), garantissant une compatibilité totale avec `torch.compile`.
 
